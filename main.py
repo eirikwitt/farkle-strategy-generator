@@ -5,6 +5,7 @@ from collections import namedtuple
 #num_dice = number of dice you are currently holding
 
 WIN_POINTS = 10000
+STATES = None #Implement later
 
 State_key = namedtuple("State_key" ["your_hp", "your_bp", "opponent_hp", "opponent_bp", "num_dice"])
 
